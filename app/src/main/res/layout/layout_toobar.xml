@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4649FF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/tvToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page Name"
+            android:layout_toRightOf="@+id/ivBack"
+            android:fontFamily="@font/open_sans_bold"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
